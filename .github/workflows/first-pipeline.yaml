@@ -28,4 +28,4 @@ jobs:
         with:
           context: ./express-app
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/express-app
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/express-app:latest
